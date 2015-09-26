@@ -11,7 +11,7 @@ namespace linux_du {
         private String dataFile = "";
         private long size = 1;
         private String baseDir = Path.Combine(Directory.GetCurrentDirectory(), "out");
-        private String dummyName = "dumy";
+        private String dummyName = "dummy";
         static void Main(string[] args) {
             new Program(args).run();
         }
